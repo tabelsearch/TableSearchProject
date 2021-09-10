@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title></title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+        <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+        </header>
+        <!-- end box-header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+
+                <li><a href="index.html">Home</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="betatablesearch.html">Beta Table Search</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+
+            </ul>
+        </nav>
+        <!-- end nav -->
+    </div>
+
+    <!-- top bar -->
+    <div class="top-bar">
+        <h1>Project</h1>
+        <p><a href="#">Home</a> / Project Details</p>
+    </div>
+    <!-- end top bar -->
+
+
+    <!-- main container -->
+    <div class="main-container portfolio-inner clearfix">
+        <!-- portfolio div -->
+        <div class="portfolio-div">
+            <div class="portfolio">
+                <!-- portfolio_filter -->
+                <div class="categories-grid wow fadeInLeft">
+                    <nav class="categories text-center">
+                        <ul class="portfolio_filter">
+                            <li><a href="" class="active" data-filter="*">All</a></li>
+                            <li><a href="" data-filter=".graphics">Overview</a></li>
+                            <li><a href="" data-filter=".photography">Objectives</a></li>
+                            <li><a href="" data-filter=".logo">Technical Info</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- portfolio_filter -->
+
+                <!-- portfolio_container -->
+                <div class="no-padding portfolio_container clearfix">
+                    <!-- single work -->
+                    <div class="col-md-4 col-sm-6  fashion logo">
+                        <a href="single-project.html" class="portfolio_item">
+                            <div class="portfolio_item_hover">
+                                <div class="portfolio-border clearfix">
+                                    <div class="item_info">
+                                        <span></span>
+                                        <em></em>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end single work -->
+
+                    <!-- Overview container -->
+                    <div class="container main-container graphics">
+                        <div class="col-md-3">
+                            <img src="" class="img-responsive" alt="" />
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="uppercase">Overview</h3>
+                            <h5>Ad Hoc Table Retrieval</h5>
+                            <div class="h-30"></div>
+                            <p> Search engines are able to retrieve web pages that have the highest information value to
+                                the
+                                users search queries. However, they are not able to identify and retrieve tabular
+                                information that are embedded within unstructured textual content on Web pages. Tables
+                                are
+                                widely used to store data and they are a structured source of information.
+                            </p>
+                            <p> Due to the vast number of tables available on the web, it would be an effective use of
+                                information if tables can be effectively retrieved. The goal of this project was to
+                                develop
+                                cutting-edge techniques that would allow for the efficient identification and retrieval
+                                of
+                                tables for a given user query. Our mission was to take the baseline ranking and improve
+                                it by
+                                implementing new features that could contribute to improving the baseline of ad hoc
+                                table
+                                retrieval.</p>
+
+                            <p> We initially started our project by studying the work of authors Zhang and Balog[1]. To
+                                improve past work, we needed to recreate components of the past work. It was essential
+                                to
+                                implement all the features from scratch since no source code was given. Features were
+                                organized into three sections, query features, table features and query-table features.
+                                Thereafter, multiple features were selected from each section, and implemented
+                                accordingly.
+                                After reproducing the work, three hypotheses were used to implement more features. The
+                                three
+                                hypotheses include reliability, redundancy and coherency. New features based on these
+                                three
+                                hypotheses were implemented in an attempt to improve past work.
+                            </p>
+                            <p> These feature results were then executed using a ranking algorithm with different
+                                metrics.
+                                The Random Forests algorithm was used as the ranking algorithm with metrics such as NDCG
+                                (Normalized Discounted Cumulative Gain) and ERR (Expected Reciprocal Rank)[2]. In
+                                summary,
+                                the focus of this project was to add contributions to enhance and further improve the ad
+                                hoc
+                                retrieval by taking into consideration three different hypotheses of reliability,
+                                redundancy
+                                and coherency.</p>
+
+
+                            <div class="h-10"></div>
+
+                        </div>
+                        <!-- footer -->
+                        <footer>
+                            <div class="container-fluid">
+                                <p class="copyright">© EB01 2019</p>
+                            </div>
+                        </footer>
+                        <!-- end footer -->
+
+                        <!-- back to top -->
+                        <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+                        <!-- end back to top -->
+                    </div>
+                    <!-- end Overview container -->
+
+                    <!-- Objective container -->
+                    <div class="container main-container photography">
+                        <div class="col-md-3">
+                            <img src="" class="img-responsive" alt="" />
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="uppercase">Objectives</h3>
+                            <h5> </h5>
+                            <div class="h-30"></div>
+
+                            <p> The main objective of this project was to implement a technique that is capable of
+                                efficient table retrieval from a user query. The focus was to study the work of “Ad
+                                Hoc Table Retrieval using Semantic Similarity” by authors Shuo Zhang and Krisztian
+                                Balog[1]and propose additional improvements. </p>
+
+                            <p>The work comprised of semantic matching done with
+                                three main feature categories, table, query and table-query features. These features
+                                are the baseline used to break down the tables and query characteristics. Features were
+                                organized into query features, table features and query-table features. Thereafter,
+                                multiple features from each section were implemented to reproduce baseline results.
+                                The improvements include a set of features that would better match the query to the
+                                table ranking.</p>
+
+                            <p>
+                                The goal was to implement a model that would produce better retrieval
+                                results based on these new features. The model would be tested for performance using
+                                supervised and unsupervised ranking algorithms. To understand the performance of the
+                                model, the ranking results would then be compared with the baseline to show how well
+                                the model was able to retrieve the table on its own versus with assistance.
+
+                            </p>
+                            <div class="h-10"></div>
+
+                        </div>
+                        <!-- footer -->
+                        <footer>
+                            <div class="container-fluid">
+                                <p class="copyright">© EB01 2019</p>
+                            </div>
+                        </footer>
+                        <!-- end footer -->
+
+                        <!-- back to top -->
+                        <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+                        <!-- end back to top -->
+                    </div>
+                    <!-- end Objective container -->
+
+                    <!-- Technical Info container -->
+                    <div class="container main-container logo">
+                        <div class="col-md-3">
+                            <img src="" class="img-responsive" alt="" />
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="uppercase">Technical Information Summary</h3>
+                            <h4>Theory and Design</h4>
+                            <div class="h-30"></div>
+                            <p>The first step of project implementation procedure was to execute the feature
+                                calculations for each of the corresponding hypotheses. These features are added to the
+                                existing baseline features belonging to the work of authors Zhang and Balog[1],
+                                illustrated below.
+                                The software application used to develop the coding implementation of
+                                feature measurements is Pycharm. Specifics regarding the Python libraries and tools that
+                                were used are discussed with each corresponding hypothesis.
+                                <img src="img/BF.png" class="img-responsive" alt="" />
+                            </p>
+                            <p>
+                            <h5>Table Coherency</h5>
+                            To prepare working with LDA algorithm, it was crucial to take the
+                            tabular data and convert it to documents. To accomplish this Python data
+                            manipulation tools were used. All the elements of the table were used which
+                            contained text. Some elements such as number of columns, number of rows, number
+                            of numerical rows were disregarded as they were characteristics. Other elements
+                            such as title, page title, second title, caption and data were extracted from
+                            every table. Once this data was extracted, it was stored in the form of a Python
+                            dictionary. However, for the LDA algorithm the data needed to be formatted into
+                            strings. For this, the individual strings were
+                            extracted and punctuation was removed. The data for every table was saved as
+                            a .txt file ready for the LDA algorithm. The data needed to be further processed
+                            to remove stop words, stem the words, lowercase the words, and tokenize the
+                            words. This would insure that the topics are composed of the important words. To
+                            do the above, Python modules such as spacy, pandas, numpy, and nltk were used.
+                            </p>
+                            <p>
+                            <h5>Latent Dirichlet Allocation (LDA) Algorithm</h5>
+                            The LDA model is created with the Python
+                            module Gensim as it considers numbers
+                            as well as text. Once the LDA model is created, it outputs a number of topics
+                            with the probabilities of the most used words in it. Below is an example of how
+                            the topics are extracted from a set of documents:
+                            <img src="img/LDA.png" class="img-responsive" alt="" />
+                            </p>
+
+
+                            <p>
+                            <h5>Learn-to-Rank Algorithm </h5>
+                            When data is retrieved based off of a query, every document retrieved is ranked
+                            from most relevant, to least relevant. The ranking is done with a rank score
+                            that is calculated and sorted according to the score. Machine learning
+                            algorithms are used in which models learn to compute the ranking score. The
+                            process of learning-to-rank is summarized in the following pipe-line diagram,
+                            presented below.
+                            <img src="img/LR.png" class="img-responsive" alt="" />
+                            </p>
+                            <p>Firstly, preprocessing occurs, this step is
+                                dependent on the algorithm being used. Certain algorithms require preprocessing
+                                to transform data into a specific format for optimization of computation.
+                                The next step is Feature Selection, where features are to be selected to build
+                                the learning model. Once this is completed, the prepared data enters the
+                                training stage, where the chosen learning-to-rank algorithm processes and learns
+                                the input data to create a model. The resulting model is used in the final
+                                stage of the process to generate predictions. In the Prediction stage, the model
+                                is used to form an estimation of relevance.</p>
+                            <p>
+                            <h5>Random Forests Algorithm</h5>
+
+                            The Random Forest algorithm is an ensemble classifier algorithm based on the decision
+                            tree model. It generates k different training data subsets from an original dataset
+                            using a bootstrap sampling approach, and then, k decision trees are built by training
+                            these subsets. A random forest is finally constructed from these decision trees. Each
+                            sample of the testing dataset is predicted by all decision trees, and the final
+                            classification result is returned depending on the votes of these trees.
+
+                            </p>
+
+                            <p>
+                            <h5>Table Title, Table Data and Page Title Redundancy</h5>
+                            The table redundancy hypothesis focused on detecting redundancy amongst tables which would
+                            lead to better re-ranking of the tables for a given query. Data redundancy is created within
+                            a database or data storage technology in which the same piece of data is held in two
+                            separate places. This could occur by accident but is also done deliberately for backup
+                            and recovery purposes. When applying this concept to our tables there were many instances
+                            when data fields within the table were repeating. The repeating fields that were used to
+                            calculate redundancy in the table include table “title” , “data” and “page title”. These
+                            fields were used to generate a redundancy ratio for the 1200 tables in our corpus
+                            file.
+
+                            </p>
+                            <p>
+                            <h5>Results </h5>
+                            The measurement results that tested the effectiveness of our hypothesized features with
+                            regards to relevance ranking is demonstrated below.
+                            <img src="img/results.png" class="img-responsive" alt="" />
+                            Each hypothesis was
+                            evaluated individually with the same methodology and procedure described above in the
+                            previous section of the report. This allowed for a more detailed assessment of how effective
+                            each feature was towards contributing to the improvement of the baseline results.
+
+                            <img src="img/RF.png" class="img-responsive" alt="" />
+                            </p>
+                            <p>
+                            <h5>Post Analysis </h5>
+                            Once the results were generated, they were analyzed to further understand the effects of our
+                            features. To accomplish this, we as a group collectively decided to run all three hypotheses
+                            individually and then a final evaluation with all of them combined together. This assisted
+                            with providing more insight towards the level of impact each hypothesis had on the
+                            improvements of the baseline performance.
+                            </p>
+                            <p>
+                                After analyzing the results produced, it shows that there is a
+                                discrepancy in the pipeline to produce the equivalent or improved results.
+                            </p>
+                            <p>
+                                One explanation for having performance values lower than the baseline, is that the
+                                results were not evaluated in the same manner. The understanding is that if our
+                                features do not perform well, the ranking algorithm should disregard the new features,
+                                and produce the same baseline features. Specifically, the RankLib command used to
+                                generate the model may be different from what the baseline paper used, or
+                                there may be an issue with the computed values of our newly added features, possibly
+                                causing a disruption to the learn-to-rank model.
+                            </p>
+
+
+                            <p>
+                                Another explanation for the results produced is that we have only trained our models
+                                with 1200 tables, and not the entire corpus due to having a lack of computing power.
+                                This may have an effect as the model, since it was not trained on the complete corpus of
+                                1.6 M
+                                tables. In addition, investing in a more detailed assessment of the baseline equivalence
+                                to ensure that the results are properly reflected on the work done, and re-analysis of
+                                the baseline process would be effective towards identifying the possible issue. Thus, it
+                                is
+                                difficult to conclude whether our hypotheses have the capability to improve the baseline
+                                relevance ranking performance, due to testing with a reduced corpus.
+                            </p>
+
+                            <p>
+                            <h5>References</h5>
+
+
+                            [1] Shuo Zhang and Krisztian Balog. 2018. Ad Hoc Table Retrieval using Semantic Similarity.
+                            In WWW 2018: The 2018 Web Conference, April 23–27, 2018, Lyon, France. ACM, New York, NY,
+                            USA 10 Pages. https://doi.org/10.1145/3178876.3186067
+
+
+                            [2] Topic Modeling in Python with Gensim. (2019). Retrieved from
+                            https://www.machinelearningplus.com/nlp/topic-modeling-gensim-python/
+
+                            [3] Y. Bernstein and J. Zobel, "Accurate discovery of co-derivative documents via duplicate
+                            text detection," Information Systems, vol. 31, (7), pp. 595-609, 2006.
+                            [4] Barber, J. (2019). Latent Dirichlet Allocation (LDA) with Python. Retrieved from
+                            https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html
+
+                            [5] Blei, D., Ng, A., & Jordan, M. (2003). Latent Dirichlet Allocation. Journal Of Machine
+                            Learning Research 3. Retrieved from http://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf
+
+                            [6] Canadian Dollar. (2019). Retrieved from https://en.wikipedia.org/wiki/Canadian_dollar
+
+                            [7] Chandra Sekhar Bhagavatula, Thanapon Noraset, and Doug Downey. 2013. Methods for
+                            Exploring and Mining Tables on Wikipedia. In Proc. of IDEA ’13. 18–26
+
+                            [8] Chen, J., Li, K., Tang, Z., Bilal, K., Yu, S., Weng, C., & Li, K. (2017). A parallel
+                            random forest algorithm for big data in a spark cloud computing environment. IEEE
+                            Transactions on Parallel and Distributed Systems, 28(4), 919-933.
+                            doi:10.1109/TPDS.2016.2603511
+
+                            [9] Eurozone. (2019). Retrieved from https://en.wikipedia.org/wiki/Eurozone?action=info
+
+                            [10] International rankings of Iran. (2019). Retrieved from
+                            https://en.wikipedia.org/wiki/International_rankings_of_Iran
+
+                            [11] Li, H. (2011). Learning to rank for information retrieval and natural language
+                            processing Morgan & Claypool.
+
+                            [12] Li, S. (2018). Topic Modeling and Latent Dirichlet Allocation (LDA) in Python.
+                            Retrieved from
+                            https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
+
+                            [13] Michael J. Cafarella, Alon Halevy, Daisy Zhe Wang, Eugene Wu, and Yang Zhang. 2008.
+                            WebTables: Exploring the Power of Tables on the Web. Proc. of VLDB Endow. 1 (2008), 538–549.
+
+                            [14] Ranking Measures. (n.d.). Retrieved from
+                            https://hivemall.incubator.apache.org/userguide/eval/rank.html#normalized-discounted-cumulative-gain-ndcg
+
+                            [15] Reinanda, R., & Widyantoro, D. (2014). Performance Comparison of Learning to Rank
+                            Algorithms for Information Retrieval. Retrieved from
+                            https://pdfs.semanticscholar.org/cd12/e191d2c2790e5ed60e5186462e6f8027db1f.pdf
+
+                            [16] Scornet, E. (2016). Random Forests and Kernel Methods. IEEE Transactions On Information
+                            Theory, 62(3), 1485-1500. doi: 10.1109/tit.2016.2514489
+
+                            [17] Shuo Zhang and Krisztian Balog. 2017. Design Patterns for Fusion-Based Object
+                            Retrieval. In Proc. of ECIR ’17. 684–690.
+
+
+                            </p>
+                            <div class="h-10"></div>
+
+                        </div>
+                        <!-- footer -->
+                        <footer>
+                            <div class="container-fluid">
+                                <p class="copyright">© EB01 2019</p>
+                            </div>
+                        </footer>
+                        <!-- end Technical Info container -->
+                        <!-- back to top -->
+                        <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+                        <!-- end back to top -->
+
+
+                        <!-- jQuery -->
+                        <script src="js/jquery-2.1.1.js"></script>
+                        <!--  plugins -->
+                        <script src="js/bootstrap.min.js"></script>
+                        <script src="js/menu.js"></script>
+                        <script src="js/animated-headline.js"></script>
+                        <script src="js/isotope.pkgd.min.js"></script>
+
+
+                        <!--  custom script -->
+                        <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
